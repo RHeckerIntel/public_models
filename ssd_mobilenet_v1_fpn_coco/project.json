@@ -9,7 +9,7 @@
       "task_type": "classification",
       "model_source": {
         "xml": "mobilenet-v2-1.4-224.xml",
-        "bin": "mobilenet-v2-1.4-224.bin",
+        "bin": "mobilenet-v2-1.4-224.bin"
       },
       "labels": [
         {
