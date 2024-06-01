@@ -1,0 +1,588 @@
+{
+  "name": "MobileNet-V2-1.4-224",
+  "creation_time": "2024-04-25T19:16:51.714000+00:00",
+  "type": "image",
+  "tasks": [
+    {
+      "id": "662aac23edcb02d8b632309a",
+      "name": "Classification",
+      "task_type": "classification",
+      "model_source": {
+        "xml": "mobilenet-v2-1.4-224.xml",
+        "bin": "mobilenet-v2-1.4-224.bin",
+      },
+      "labels": [
+        {
+          "id": "0",
+          "name": "background",
+          "color": "#C28636FF",
+          "is_empty": true,
+          "parent_id": ""
+        },
+        {
+          "id": "1",
+          "name": "person",
+          "color": "#41E74BFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "2",
+          "name": "bicycle",
+          "color": "#153581FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "3",
+          "name": "car",
+          "color": "#F49454FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "4",
+          "name": "motorcycle",
+          "color": "#20E123FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "5",
+          "name": "airplane",
+          "color": "#E9939AFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "6",
+          "name": "bus",
+          "color": "#9E11CFFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "7",
+          "name": "train",
+          "color": "#F2C67FFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "8",
+          "name": "truck",
+          "color": "#E7D018FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "9",
+          "name": "boat",
+          "color": "#09E9C0FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "10",
+          "name": "trafficlight",
+          "color": "#A645C0FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "11",
+          "name": "firehydrant",
+          "color": "#69E9D6FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "12",
+          "name": "stopsign",
+          "color": "#4AF454FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "13",
+          "name": "parkingmeter",
+          "color": "#94D038FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "14",
+          "name": "bench",
+          "color": "#5CF4E1FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "15",
+          "name": "bird",
+          "color": "#9807DFFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "16",
+          "name": "cat",
+          "color": "#A602FEFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "17",
+          "name": "dog",
+          "color": "#762BD5FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "18",
+          "name": "horse",
+          "color": "#73D7A4FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "19",
+          "name": "sheep",
+          "color": "#398F72FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "20",
+          "name": "cow",
+          "color": "#F6FAF6FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "21",
+          "name": "elephant",
+          "color": "#BBBCC1FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "22",
+          "name": "bear",
+          "color": "#36F3E9FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "23",
+          "name": "zebra",
+          "color": "#4E5F67FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "24",
+          "name": "giraffe",
+          "color": "#43937DFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "25",
+          "name": "backpack",
+          "color": "#4966A6FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "26",
+          "name": "umbrella",
+          "color": "#3E9F26FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "27",
+          "name": "handbag",
+          "color": "#30BB2FFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "28",
+          "name": "tie",
+          "color": "#C231C1FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "29",
+          "name": "suitcase",
+          "color": "#8EC5BCFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "30",
+          "name": "frisbee",
+          "color": "#2FBC63FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "31",
+          "name": "skis",
+          "color": "#BA7411FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "32",
+          "name": "snowboard",
+          "color": "#270ABDFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "33",
+          "name": "sportsball",
+          "color": "#2356A5FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "34",
+          "name": "kite",
+          "color": "#4F1C6EFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "35",
+          "name": "baseballbat",
+          "color": "#DB7904FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "36",
+          "name": "baseballglove",
+          "color": "#0D9711FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "37",
+          "name": "skateboard",
+          "color": "#CC4599FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "38",
+          "name": "surfboard",
+          "color": "#4F93E4FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "39",
+          "name": "tennisracket",
+          "color": "#1ECC0FFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "40",
+          "name": "bottle",
+          "color": "#DF2D6BFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "41",
+          "name": "wineglass",
+          "color": "#C06185FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "42",
+          "name": "cup",
+          "color": "#FA31F9FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "43",
+          "name": "fork",
+          "color": "#FF8582FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "44",
+          "name": "knife",
+          "color": "#162E43FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "45",
+          "name": "spoon",
+          "color": "#7E2273FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "46",
+          "name": "bowl",
+          "color": "#B6E37AFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "47",
+          "name": "banana",
+          "color": "#1AED3AFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "48",
+          "name": "apple",
+          "color": "#90D68BFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "49",
+          "name": "sandwich",
+          "color": "#FC5EFDFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "50",
+          "name": "orange",
+          "color": "#4195BFFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "51",
+          "name": "broccoli",
+          "color": "#375AD4FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "52",
+          "name": "carrot",
+          "color": "#908332FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "53",
+          "name": "hotdog",
+          "color": "#3A7278FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "54",
+          "name": "pizza",
+          "color": "#4105B8FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "55",
+          "name": "donut",
+          "color": "#B473D9FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "56",
+          "name": "cake",
+          "color": "#2DAA0BFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "57",
+          "name": "chair",
+          "color": "#322966FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "58",
+          "name": "couch",
+          "color": "#DC37EFFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "59",
+          "name": "pottedplant",
+          "color": "#64E5A2FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "60",
+          "name": "bed",
+          "color": "#950015FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "61",
+          "name": "diningtable",
+          "color": "#29CFFCFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "62",
+          "name": "toilet",
+          "color": "#D94ED4FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "63",
+          "name": "tv",
+          "color": "#8925D7FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "64",
+          "name": "laptop",
+          "color": "#BB654FFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "65",
+          "name": "mouse",
+          "color": "#1D70C8FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "66",
+          "name": "remote",
+          "color": "#820723FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "67",
+          "name": "keyboard",
+          "color": "#8DB6CAFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "68",
+          "name": "cellphone",
+          "color": "#F21861FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "69",
+          "name": "microwave",
+          "color": "#1ACA29FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "70",
+          "name": "oven",
+          "color": "#B2040FFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "71",
+          "name": "toaster",
+          "color": "#443CE8FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "72",
+          "name": "sink",
+          "color": "#73C0BEFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "73",
+          "name": "refrigerator",
+          "color": "#724716FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "74",
+          "name": "book",
+          "color": "#B77915FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "75",
+          "name": "clock",
+          "color": "#16C411FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "76",
+          "name": "vase",
+          "color": "#A1487DFF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "77",
+          "name": "scissors",
+          "color": "#69D535FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "78",
+          "name": "teddybear",
+          "color": "#DEB7D9FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "79",
+          "name": "hairdrier",
+          "color": "#EB5EB7FF",
+          "is_empty": false,
+          "parent_id": ""
+        },
+        {
+          "id": "80",
+          "name": "toothbrush",
+          "color": "#09933CFF",
+          "is_empty": false,
+          "parent_id": ""
+        }
+      ],
+      "architecture": "MobileNetV2",
+      "optimization": "OpenVINO FP32"
+    }
+  ],
+  "application_version": "1.0.0"
+}
