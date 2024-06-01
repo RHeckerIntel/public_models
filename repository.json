@@ -2,6 +2,6 @@
     {
         "name": "ssd_mobilenet_v1_fpn_coco",
         "project_info": "ssd_mobilenet_v1_fpn_coco/project.json",
-        "inference_app_version": "1.0.5",
+        "inference_app_version": "1.0.5"
     }
 ]
