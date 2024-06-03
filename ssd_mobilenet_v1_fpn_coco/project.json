@@ -2,6 +2,8 @@
   "name": "MobileNet-V2-1.4-224",
   "creation_time": "2024-04-25T19:16:51.714000+00:00",
   "type": "image",
+  "thumbnail_source": "thumbnail.jpg",
+  "sample_source": "sample.jpg",
   "tasks": [
     {
       "name": "Classification",
