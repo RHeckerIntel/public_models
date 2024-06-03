@@ -3,5 +3,10 @@
         "name": "ssd_mobilenet_v1_fpn_coco",
         "project_info": "ssd_mobilenet_v1_fpn_coco/project.json",
         "inference_app_version": "1.0.5"
+    },
+    {
+        "name": "hrnet-v2-c1-segmentation",
+        "project_info": "hrnet-v2-c1-segmentation/project.json",
+        "inference_app_version": "1.0.5"
     }
 ]
