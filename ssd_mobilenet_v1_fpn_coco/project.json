@@ -6,8 +6,8 @@
   "sample_source": "sample.jpg",
   "tasks": [
     {
-      "name": "Classification",
-      "task_type": "classification",
+      "name": "Detection",
+      "task_type": "detection",
       "model_source": {
         "xml": "ssd_mobilenet_v1_fpn_coco.xml",
         "bin": "ssd_mobilenet_v1_fpn_coco.bin"
