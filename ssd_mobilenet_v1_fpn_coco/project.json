@@ -8,8 +8,8 @@
       "name": "Classification",
       "task_type": "classification",
       "model_source": {
-        "xml": "ssd_mobilenet-v2-1.4-224.xml",
-        "bin": "ssd_mobilenet-v2-1.4-224.bin"
+        "xml": "ssd_mobilenet_v1_fpn_coco.xml",
+        "bin": "ssd_mobilenet_v1_fpn_coco.bin"
       },
       "labels": [
         {
