@@ -8,5 +8,10 @@
         "name": "hrnet-v2-c1-segmentation",
         "project_info": "hrnet-v2-c1-segmentation/project.json",
         "inference_app_version": "1.0.5"
+    },
+    {
+        "name": "efficientnet-b0-pytorch",
+        "project_info": "efficientnet-b0-pytorch/project.json",
+        "inference_app_version": "1.0.5"
     }
 ]
